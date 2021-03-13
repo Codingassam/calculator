@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bree Serif',serif;
+}
+h1,p{
+  text-align: center;
+  color: purple;
+  
+  
+}
+form{
+  width: 80%;
+  background-color: purple;
+  margin: 10px auto;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+input[type='button']{
+  width: 32%;
+  background-color: purple;
+  color: white;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 1px solid white;
+  font-size: 16px;
+  margin: 2px 0px;
+  transition: all 0.5s .01s linear;
+}
+
+input[type='button']:hover{
+  background-color: white;
+  color: purple;
+ 
+  
+}
+
+form input:first-child{
+  width: 100%;
+  height: 35px;
+  border-radius: 10px;
+  font-size: 25px;
+  padding: 3px 5px;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+}
+
+input:last-child{
+  width: 90%;
+  font-family: 'Bree Serif',serif;
+  font-weight: bold;
+}
